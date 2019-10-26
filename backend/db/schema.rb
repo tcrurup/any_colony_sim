@@ -10,13 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_26_014918) do
+ActiveRecord::Schema.define(version: 2019_10_26_053826) do
 
   create_table "ants", force: :cascade do |t|
     t.integer "colony_id"
   end
 
   create_table "colonies", force: :cascade do |t|
+  end
+
+  create_table "commons", force: :cascade do |t|
+    t.integer "colony_id"
   end
 
   create_table "queens", force: :cascade do |t|

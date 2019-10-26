@@ -1,0 +1,3 @@
+class Commons < ApplicationRecord
+    
+end
