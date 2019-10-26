@@ -1,0 +1,3 @@
+class Nurse < Ant
+
+end
